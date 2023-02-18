@@ -21,9 +21,6 @@ document.getElementById('calculate_btn').addEventListener('click',function(){
     const tri_decimal_point1=tri_decimal_point.toFixed(2);
 
     const tri_result=document.getElementById('trian1');
-   // const tri_result1=tri_result.innerText;
-    // const tri_result2=parseFloat(tri_result1);
-    // const final_result=0.5*tri_first3*tri_second3;
     tri_result.innerText=tri_decimal_point1;
     tri_first1.value='';
     tri_second1.value='';
@@ -43,9 +40,6 @@ document.getElementById('calculate_btn4').addEventListener('click',function(){
     const rh_decimal_point1=rh_decimal_point.toFixed(2);
 
     const rho_result=document.getElementById('trian4');
-   // const rho_result1=rho_result.innerText;
-    // const rho_result2=parseFloat(rho_result1);
-    // const final_result=0.5*rho_first3*rho_second3;
     rho_result.innerText=rh_decimal_point1;
     rho_first1.value='';
     rho_second1.value='';
