@@ -1,3 +1,30 @@
+#triangle_bg {
+    background-color: #FBBCED;
+}
+
+#rhombus_bg {
+    background-color: #69C7F0;
+}
+
 #navbar_bg {
     background-color: paleturquoise;
+}
+
+#calculate_btn {
+    background-color: #1090D8;
+    margin-bottom: 10px;
+}
+
+#Blog_bg {
+    background-color: #1090D8;
+
+}
+
+.card-img-top {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.img {
+    height: 25vh;
 }
