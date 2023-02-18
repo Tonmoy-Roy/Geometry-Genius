@@ -10,11 +10,34 @@
     background-color: paleturquoise;
 }
 
-#calculate_btn {
+#calculate_btn{
     background-color: #1090D8;
     margin-bottom: 10px;
 }
-
+#calculate_btn1{
+    background-color: #1090D8;
+    margin-bottom: 10px;
+}
+#calculate_btn2{
+    background-color: #1090D8;
+    margin-bottom: 10px;
+}
+#calculate_btn3{
+    background-color: #1090D8;
+    margin-bottom: 10px;
+}
+#calculate_btn4{
+    background-color: #1090D8;
+    margin-bottom: 10px;
+}
+#calculate_btn5{
+    background-color: #1090D8;
+    margin-bottom: 10px;
+}
+#calculate_btn6{
+    background-color: #1090D8;
+    margin-bottom: 10px;
+}
 #Blog_bg {
     background-color: #1090D8;
 }
@@ -29,5 +52,6 @@
 }
 #tri_btn{
     background-color: #1090D8;
-
+    font-weight: 300;
+    /* //font-size: small; */
 }
