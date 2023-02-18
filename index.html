@@ -8,18 +8,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style/styles.css">
-    
+
     <title>Geometry-Genius</title>
 </head>
 
 <body class="p-4">
-    <nav id="navbar_bg" class="navbar mb-5">
+    <nav id="navbar_bg" class="navbar mb-5 rounded">
         <div class="container-fluid">
             <a class="navbar-brand">
                 <h3>Interactive</h3>Geometry-Genius
             </a>
             <form class="d-flex" role="search">
-                <button id="Blog_bg" class="btn btn-primary" type="submit">Blog</button>
+                <button id="Blog_bg" class="btn btn-primary" type="button">Blog</button>
             </form>
         </div>
     </nav>
@@ -33,7 +33,8 @@
                 <div class="card-body">
                     <h5 class="card-title text-center">Triangle</h5>
                     <p class="card-text text-center mb-2">Area(A) = 0.5 × b × h</p>
-                    <input type="text" placeholder=" b" class="w-25 ms-5 mb-5"> cm <input type="text" placeholder=" h" class="w-25"> cm
+                    <input id="tri_1" type="text" placeholder=" b" class="w-25 ms-5 mb-5"> cm <input id="tri_2"
+                        type="text" placeholder=" h" class="w-25"> cm
                     <button id="calculate_btn" class="btn btn-primary w-75 ms-4">Calculate</button>
                 </div>
             </div>
@@ -46,7 +47,8 @@
                 <div class="card-body">
                     <h5 class="card-title text-center">Rectangle</h5>
                     <p class="card-text text-center mb-2">Area(A) = w × l</p>
-                    <input type="text" placeholder=" w" class="w-25 ms-5 mb-5"> cm <input type="text" placeholder=" l" class="w-25"> cm
+                    <input type="text" placeholder=" w" class="w-25 ms-5 mb-5"> cm <input type="text" placeholder=" l"
+                        class="w-25"> cm
                     <button id="calculate_btn" class="btn btn-primary w-75 ms-4">Calculate</button>
 
                 </div>
@@ -60,16 +62,35 @@
                 <div class="card-body">
                     <h5 class="card-title text-center">Parallelogram</h5>
                     <p class="card-text text-center mb-2">Area(A) = b × h</p>
-                    <input type="text" placeholder=" b" class="w-25 ms-5 mb-5"> cm <input type="text" placeholder=" h" class="w-25"> cm
+                    <input type="text" placeholder=" b" class="w-25 ms-5 mb-5"> cm <input type="text" placeholder=" h"
+                        class="w-25"> cm
                     <button id="calculate_btn" class="btn btn-primary w-75 ms-4">Calculate</button>
-
                 </div>
             </div>
         </div>
         <div class="col">
-            <div class="card h-75">
+            <div class="card h-100">
                 <div class="card-body">
-                    <h6 class="text-center"><u>Area Calculation</u></h6>
+                    <h6 class="text-center mb-3"><u>Area Calculation</u></h6>
+                    <p class="ms-1">1.triangle <span id="" class="ms-3">00</span>cm<sup>2</sup><button id="tri_btn"
+                            class="btn btn-primary ms-5 rounded text-white" type="button">convert to
+                            m<sup>2</sup></button></p>
+                    <p class="ms-1">2.rectangle <span id="" class="ms-2">00</span>cm<sup>2</sup><button id="tri_btn"
+                            class="btn btn-primary ms-5 rounded text-white" type="button">convert to
+                            m<sup>2</sup></button></p>
+                    <p class="ms-1">3.parallelogram <span id="" class="ms-2">00</span>cm<sup>2</sup><button id="tri_btn"
+                            class="btn btn-primary ms-3 rounded text-white" type="button">convert to
+                            m<sup>2</sup></button></p>
+                    <p class="ms-1">4.rhombus <span id="" class="ms-2">00</span>cm<sup>2</sup><button id="tri_btn"
+                            class="btn btn-primary ms-5 rounded text-white" type="button">convert to
+                            m<sup>2</sup></button></p>
+                    <p class="ms-1">5.pentagon <span id="" class="ms-2">00</span>cm<sup>2</sup><button id="tri_btn"
+                            class="btn btn-primary ms-5 rounded text-white" type="button">convert to
+                            m<sup>2</sup></button></p>
+                    <p class="ms-1">6.ellipse <span id="" class="ms-4">00</span>cm<sup>2</sup><button id="tri_btn"
+                            class="btn btn-primary ms-5 rounded text-white" type="button">convert to
+                            m<sup>2</sup></button></p>
+
                 </div>
             </div>
         </div>
@@ -85,7 +106,8 @@
                 <div class="card-body">
                     <h5 class="card-title text-center">Rhombus</h5>
                     <p class="card-text text-center mb-2">Area(A) = 0.5 × d<sub>1</sub>× d<sub>2</sub></p>
-                    <input type="text" placeholder=" d1" class="w-25 ms-5 mb-5"> cm <input type="text" placeholder=" d2" class="w-25"> cm
+                    <input type="text" placeholder=" d1" class="w-25 ms-5 mb-5"> cm <input type="text" placeholder=" d2"
+                        class="w-25"> cm
                     <button id="calculate_btn" class="btn btn-primary w-75 ms-4">Calculate</button>
 
                 </div>
@@ -99,7 +121,8 @@
                 <div class="card-body">
                     <h5 class="card-title text-center">Pentagon</h5>
                     <p class="card-text text-center mb-2">Area (A) = 0.5 × p × b</p>
-                    <input type="text" placeholder=" p" class="w-25 ms-5 mb-5"> cm <input type="text" placeholder=" b" class="w-25"> cm
+                    <input type="text" placeholder=" p" class="w-25 ms-5 mb-5"> cm <input type="text" placeholder=" b"
+                        class="w-25"> cm
                     <button id="calculate_btn" class="btn btn-primary w-75 ms-4">Calculate</button>
                 </div>
             </div>
@@ -112,14 +135,16 @@
                 <div class="card-body">
                     <h5 class="card-title text-center">Ellipse</h5>
                     <p class="card-text text-center mb-2">Area(A) = πab</p>
-                    <input type="text" placeholder=" πa" class="w-25 ms-5 mb-5"> cm <input type="text" placeholder=" b" class="w-25"> cm
+                    <input type="text" placeholder=" πa" class="w-25 ms-5 mb-5"> cm <input type="text" placeholder=" b"
+                        class="w-25"> cm
                     <button id="calculate_btn" class="btn btn-primary w-75 ms-4">Calculate</button>
 
                 </div>
             </div>
         </div>
     </div>
-
+    <script src="js/blog.js"></script>
+    <script src="./js/tri.js"></script>
 </body>
 
 </html>

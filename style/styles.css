@@ -17,7 +17,6 @@
 
 #Blog_bg {
     background-color: #1090D8;
-
 }
 
 .card-img-top {
@@ -27,4 +26,8 @@
 
 .img {
     height: 25vh;
+}
+#tri_btn{
+    background-color: #1090D8;
+
 }
