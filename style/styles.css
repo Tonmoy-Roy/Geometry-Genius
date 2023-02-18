@@ -7,37 +7,44 @@
 }
 
 #navbar_bg {
-    background-color: paleturquoise;
+    background-color: #E0FFFF;
 }
 
-#calculate_btn{
+#calculate_btn {
     background-color: #1090D8;
     margin-bottom: 10px;
 }
-#calculate_btn1{
+
+#calculate_btn1 {
     background-color: #1090D8;
     margin-bottom: 10px;
 }
-#calculate_btn2{
+
+#calculate_btn2 {
     background-color: #1090D8;
     margin-bottom: 10px;
 }
-#calculate_btn3{
+
+#calculate_btn3 {
     background-color: #1090D8;
     margin-bottom: 10px;
 }
-#calculate_btn4{
+
+#calculate_btn4 {
     background-color: #1090D8;
     margin-bottom: 10px;
 }
-#calculate_btn5{
+
+#calculate_btn5 {
     background-color: #1090D8;
     margin-bottom: 10px;
 }
-#calculate_btn6{
+
+#calculate_btn6 {
     background-color: #1090D8;
     margin-bottom: 10px;
 }
+
 #Blog_bg {
     background-color: #1090D8;
 }
@@ -50,8 +57,24 @@
 .img {
     height: 25vh;
 }
-#tri_btn{
+
+#tri_btn {
     background-color: #1090D8;
     font-weight: 300;
     /* //font-size: small; */
+}
+
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    /* padding: 14px 80px 18px 36px; */
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+
 }
